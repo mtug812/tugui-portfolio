@@ -26,7 +26,7 @@ const translations = {
   en: {
     // Navigation
     'nav.home': 'Home',
-    'nav.story': 'Professional Story',
+    'nav.story': 'Professional Experience',
     'nav.skills': 'Skills',
     'nav.education': 'Education',
     'nav.projects': 'Projects',
@@ -36,18 +36,20 @@ const translations = {
     'home.greeting': 'Hello, I\'m',
     'home.name': 'Marian-Alexandru Tugui',
     'home.title': 'International Business Informatics Student',
-    'home.subtitle': 'From Philology to Cloud Computing & DevOps',
+    'home.subtitle': ' Cloud Computing, DevOps and Web Development',
     'home.cta': 'Learn More',
     'home.about': 'About Me',
-    'home.about.text': 'I am an International Business Informatics student with a unique background in philology, now focusing on Cloud Computing and DevOps. My journey across different disciplines gives me a distinctive perspective in the tech world.',
+    'home.about.text': 'I am an International Business Informatics student with a  background in social sciences,  focusing on Cloud Computing and DevOps. My journey across different disciplines gives me a distinctive perspective in the tech world.',
     
     // Professional Story
-    'story.title': 'My Professional Story',
-    'story.intro': 'A journey from linguistics to technology',
-    'story.p1': 'My career began in the world of philology, where I developed a deep understanding of language structures and communication.',
+    'story.title': 'My Professional Experience',
+    'story.intro': 'My experience',
+    'story.p1': 'My journey began in the world of philology, where I developed a deep understanding of language structures and communication.',
     'story.p2': 'This foundation in analytical thinking provided a unique perspective when I transitioned to the field of Information Technology.',
-    'story.p3': 'Today, I specialize in Cloud Computing and DevOps, combining technical expertise with strong communication skills.',
-    
+    'story.p3': 'Today, I specialize in Cloud Computing, DevOps and Web Development, combining technical expertise with strong communication skills.',
+    'story.p4': ' Colaborated closely with experienced trainers to deliver practical cloud and DevOps trainings. Supervised group projects, moderated discussions, and analyzed sample solutions. Created and updated training materials, such as exercises and project assignments using AWS, Docker, and Linux. Provided tutoring for small groups, including the preparation and documentation of learning content. Managed regular feedback on homework (timely, detailed, solution-oriented) and offered targeted support for participants. Contributed to an automation project by designing and implementing various Python exercises to sustainably boost participants learning progress.',
+    'story.p5': 'API Testing: Planned, executed, and analyzed API tests to ensure functionality, performance, and security of APIs. Programming Languages: Proficient in JavaScript. Automation: Developed and implemented automated tests for RESTful APIs using tools like Postman. Bug Analysis: Identified and documented bugs and their root causes through in-depth examination of test data and logs.',
+    'story.p6': 'Client Support: Assisted in advising and supporting clients in a l matters of financial planning, retirement provisions, and asset building. Communication Skils: Demonstrated strong interpersonal skils and the ability to communicate effectively with clients and coleagues. Financial Analysis: Researched and analyzed various financial products and services to support wealth advisors.',
     // Skills
     'skills.title': 'My Skills',
     'skills.tech': 'Technical Skills',
@@ -56,7 +58,7 @@ const translations = {
     
     // Education
     'education.title': 'Education & Development',
-    'education.degree': 'International Business Informatics',
+    'education.degree': 'International Information Systems B.Sc',
     'education.university': 'University',
     'education.period': 'Current',
     'education.courses': 'Additional Courses',
@@ -67,7 +69,7 @@ const translations = {
     
     // Contact
     'contact.title': 'Get in Touch',
-    'contact.subtitle': 'Feel free to reach out for opportunities or just to say hello',
+    'contact.subtitle': 'Feel free to reach out for questions and opportunities ',
     'contact.email': 'Email',
     'contact.message': 'Message',
     'contact.send': 'Send Message',
@@ -88,18 +90,22 @@ const translations = {
     // Home page
     'home.greeting': 'Hallo, ich bin',
     'home.name': 'Marian-Alexandru Tugui',
-    'home.title': 'Student der International Business Informatics',
-    'home.subtitle': 'Von der Philologie zu Cloud Computing & DevOps',
+    'home.title': 'Student der Internationale Wirtschaftsinformatik',
+    'home.subtitle': 'Cloud Computing, DevOps und Web Development',
     'home.cta': 'Mehr erfahren',
     'home.about': 'Über mich',
-    'home.about.text': 'Ich bin ein Student der International Business Informatics mit einem einzigartigen Hintergrund in der Philologie, der sich jetzt auf Cloud Computing und DevOps konzentriert. Meine Reise durch verschiedene Disziplinen gibt mir eine besondere Perspektive in der Tech-Welt.',
+    'home.about.text': 'Ich bin ein Student der Internationale Wirtschaftsinformatik mit einem  Hintergrund in der Sozialwissenschaften, der sich jetzt auf Cloud Computing, DevOps und Web Development konzentriert. Meine Reise durch verschiedene Disziplinen gibt mir eine besondere Perspektive in der Tech-Welt.',
     
     // Professional Story
     'story.title': 'Mein beruflicher Werdegang',
-    'story.intro': 'Ein Weg von der Linguistik zur Technologie',
+    'story.intro': 'Meine Erfahrung',
     'story.p1': 'Meine Karriere begann in der Welt der Philologie, wo ich ein tiefes Verständnis für Sprachstrukturen und Kommunikation entwickelte.',
     'story.p2': 'Diese Grundlage im analytischen Denken bot eine einzigartige Perspektive, als ich in den Bereich der Informationstechnologie wechselte.',
     'story.p3': 'Heute spezialisiere ich mich auf Cloud Computing und DevOps und kombiniere technisches Fachwissen mit starken Kommunikationsfähigkeiten.',
+    'story.p4': 'Enge Zusammenarbeit mit erfahrenen Trainern bei der Durchführung praxisnaher Cloud- und DevOps-Schulungen. Betreuung von Gruppenprojekten, Moderation von Diskussionen und Analyse von Musterlösungen. Erstellung und Aktualisierung von Schulungsunterlagen wie Übungen und Projektaufgaben unter Verwendung von AWS, Docker und Linux. Nachhilfe für Kleingruppen, einschließlich Vorbereitung und Dokumentation von Lerninhalten. Regelmäßiges Feedback zu Hausaufgaben (zeitnah, detailliert, lösungsorientiert) und gezielte Unterstützung der Teilnehmer. Beitrag zu einem Automatisierungsprojekt durch Konzeption und Implementierung verschiedener Python-Übungen zur nachhaltigen Förderung des Lernfortschritts der Teilnehmer.' ,
+    'story.p5': 'API-Tests: Planung, Durchführung und Analyse von API-Tests zur Sicherstellung von Funktionalität, Leistung und Sicherheit von APIs. Programmiersprachen: Gute Kenntnisse in JavaScript. Automatisierung: Entwicklung und Implementierung automatisierter Tests für RESTful-APIs mit Tools wie Postman. Fehleranalyse: Identifizierung und Dokumentation von Fehlern und deren Ursachen durch eingehende Prüfung von Testdaten und Protokollen.' ,
+    'story.p6': 'Kundenbetreuung: Unterstützung bei der Beratung und Betreuung von Kunden in allen Fragen der Finanzplanung, Altersvorsorge und Vermögensbildung. Kommunikationsfähigkeiten: Nachweis starker zwischenmenschlicher Fähigkeiten und der Fähigkeit, effektiv mit Kunden und Kollegen zu kommunizieren. Finanzanalyse: Recherche und Analyse verschiedener Finanzprodukte und -dienstleistungen zur Unterstützung von Vermögensberatern.',
+
     
     // Skills
     'skills.title': 'Meine Fähigkeiten',
@@ -109,7 +115,7 @@ const translations = {
     
     // Education
     'education.title': 'Ausbildung & Entwicklung',
-    'education.degree': 'International Business Informatics',
+    'education.degree': 'Internationale Wirtschaftsinformatik B.Sc',
     'education.university': 'Universität',
     'education.period': 'Aktuell',
     'education.courses': 'Zusätzliche Kurse',

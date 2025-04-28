@@ -10,30 +10,16 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
-      title: 'Cloud Migration Project',
-      description: 'Migrated legacy systems to AWS cloud infrastructure, improving performance and reducing costs by 30%.',
-      tags: ['AWS', 'Cloud Architecture', 'DevOps'],
-      link: '#',
+      title: 'Data Scraping Application',
+      description: 'Built the Frontend and connected it wiht the Backend on this application which allows users to scrape data from websites by inputting a URL, selecting one of the three scraping options, and retrieving data output.',
+      tags: ['Typescript with React', 'Tailwind CSS', 'Web Development'],
+      link: 'https://github.com/AliRasikh/data-scraping-application',
       image: '/placeholder.svg'
     },
     {
-      title: 'DevOps Pipeline Automation',
-      description: 'Built CI/CD pipelines for automated testing and deployment, reducing deployment time from days to minutes.',
-      tags: ['Jenkins', 'Docker', 'Kubernetes'],
-      link: '#',
-      image: '/placeholder.svg'
-    },
-    {
-      title: 'Multilingual NLP Tool',
-      description: 'Leveraged philology background to create a natural language processing tool for multiple languages.',
-      tags: ['Python', 'NLP', 'Machine Learning'],
-      link: '#',
-      image: '/placeholder.svg'
-    },
-    {
-      title: 'Infrastructure as Code Project',
-      description: 'Automated infrastructure provisioning using Terraform and Ansible.',
-      tags: ['Terraform', 'Ansible', 'IaC'],
+      title: 'Homework Automation Project',
+      description: 'Contributed to an automation project by designing and implementing various Python exercises to sustainably boost participants’ learning progress.',
+      tags: ['Python', 'Github Actions', 'Github Classroom'],
       link: '#',
       image: '/placeholder.svg'
     }
@@ -49,13 +35,13 @@ const Projects: React.FC = () => {
         <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 max-w-5xl mx-auto">
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden flex flex-col h-full">
-              <div className="h-48 overflow-hidden">
+              {/* <div className="h-48 overflow-hidden">
                 <img 
                   src={project.image} 
                   alt={project.title} 
                   className="w-full h-full object-cover"
                 />
-              </div>
+              </div> */}
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
                 <CardDescription className="flex flex-wrap gap-2 mt-2">

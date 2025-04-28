@@ -7,13 +7,15 @@ const Skills: React.FC = () => {
   const { t } = useLanguage();
 
   const technicalSkills = [
-    { name: 'Cloud Computing (AWS, Azure)', level: 85 },
-    { name: 'DevOps', level: 80 },
-    { name: 'Docker', level: 90 },
-    { name: 'Kubernetes', level: 75 },
+    { name: 'Java', level: 70 },
     { name: 'Python', level: 70 },
-    { name: 'JavaScript', level: 65 },
-    { name: 'CI/CD Pipelines', level: 80 },
+    { name: 'JavaScript', level: 70 },
+    { name: 'SQL', level: 60 },
+    { name: 'Cloud Computing (AWS, Azure)', level: 70 },
+    { name: 'DevOps', level: 60 },
+    { name: 'Docker', level: 50 },
+    { name: 'Kubernetes', level: 50 },
+    { name: 'CI/CD Pipelines', level: 50 },
   ];
 
   const softSkills = [
@@ -25,10 +27,10 @@ const Skills: React.FC = () => {
   ];
 
   const languages = [
-    { name: 'English', level: 95 },
-    { name: 'German', level: 90 },
-    { name: 'Romanian', level: 100 },
-    { name: 'Spanish', level: 60 },
+    { name: 'English - C1', level: 95 },
+    { name: 'German - C1', level: 95 },
+    { name: 'Romanian - Native', level: 100 },
+    { name: 'Spanish - A2' , level: 60 },
   ];
 
   return (
@@ -47,7 +49,7 @@ const Skills: React.FC = () => {
                 <div key={index}>
                   <div className="flex justify-between mb-2">
                     <span>{skill.name}</span>
-                    <span>{skill.level}%</span>
+                    {/* <span>{skill.level}</span> */}
                   </div>
                   <Progress value={skill.level} className="h-2" />
                 </div>
@@ -64,7 +66,7 @@ const Skills: React.FC = () => {
                   <div key={index}>
                     <div className="flex justify-between mb-2">
                       <span>{skill.name}</span>
-                      <span>{skill.level}%</span>
+                      {/* <span>{skill.level}%</span> */}
                     </div>
                     <Progress value={skill.level} className="h-2" />
                   </div>
@@ -80,9 +82,9 @@ const Skills: React.FC = () => {
                   <div key={index}>
                     <div className="flex justify-between mb-2">
                       <span>{language.name}</span>
-                      <span>{language.level}%</span>
+                      {/* <span>{language.level}%</span> */}
                     </div>
-                    <Progress value={language.level} className="h-2" />
+                    {/* <Progress value={language.level} className="h-2" /> */}
                   </div>
                 ))}
               </div>

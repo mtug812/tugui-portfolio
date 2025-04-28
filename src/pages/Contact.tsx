@@ -26,8 +26,8 @@ const Contact: React.FC = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <a href="mailto:contact@example.com" className="text-primary hover:underline">
-                contact@example.com
+              <a href="mailto:martugui812@yahoo.com" className="text-primary hover:underline">
+                martugui812@yahoo.com
               </a>
             </CardContent>
           </Card>
@@ -40,8 +40,8 @@ const Contact: React.FC = () => {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <a href="tel:+1234567890" className="text-primary hover:underline">
-                +123 456 7890
+              <a href="tel:+4917623102820" className="text-primary hover:underline">
+                +49 176 2310 2820
               </a>
             </CardContent>
           </Card>
@@ -55,12 +55,12 @@ const Contact: React.FC = () => {
             </CardHeader>
             <CardContent>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/mtug812" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"
               >
-                @yourusername
+                @mtug812
               </a>
             </CardContent>
           </Card>
@@ -74,7 +74,7 @@ const Contact: React.FC = () => {
             </CardHeader>
             <CardContent>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://linkedin.com/in/marian-alexandru-tugui-088887247" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:underline"

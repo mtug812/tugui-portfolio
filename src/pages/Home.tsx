@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="py-16 md:py-24 container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-primary mb-2">{t('home.greeting')}</p>
+          
           <h1 className="font-heading font-bold text-4xl md:text-5xl lg:text-6xl mb-4">
             {t('home.name')}
           </h1>

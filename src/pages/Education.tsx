@@ -9,34 +9,30 @@ const Education: React.FC = () => {
   const education = [
     {
       degree: t('education.degree'),
-      institution: 'University Name',
-      period: '2020 - Present',
-      description: 'Specializing in Cloud Computing and DevOps technologies',
+      institution: 'Technische Hochschule Augsburg',
+      period: '2022 - Present',
+      description: 'International IT specialists for information systems work at the interface between different areas of knowledge and therefore require an understanding of the disciplines involved in the International Information Systems degree program: business, computer science and internationality.',
     },
     {
-      degree: 'Bachelor in Philology',
-      institution: 'University Name',
+      degree: 'Exchange Semester',
+      institution: 'University Abat Oliba CEU, Barcelona',
+      period: '02.2024 - 07.2024',
+      description: 'During my Erasmus exchange semester at the renowned Abat Oliba CEU University in Barcelona, I deepened my understanding of strategic business approaches and developed essential skills in Strategic Management, Strategic Marketing, and Innovation and Knowledge Management. These courses idealy complemented my main studies in International Business Informatics and a lowed me to effectively combine technological and business perspectives.',
+    },
+    {
+      degree: 'Baccalaureate',
+      institution: 'High School "Eudoxiu Hurmuzachi", Radauti',
       period: '2015 - 2019',
       description: 'Focus on linguistics and communication',
-    },
+    }
   ];
 
   const courses = [
     {
-      name: 'AWS Certified Solutions Architect',
-      provider: 'Amazon Web Services',
+      name: 'AZ-900',
+      provider: 'Microsoft',
       year: '2022',
-    },
-    {
-      name: 'DevOps with Docker and Kubernetes',
-      provider: 'Online Platform',
-      year: '2021',
-    },
-    {
-      name: 'Advanced Python Programming',
-      provider: 'Online Platform',
-      year: '2020',
-    },
+    }
   ];
 
   return (
