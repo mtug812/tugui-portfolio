@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/tugui-portfolio/',
   plugins: [
     react(),
     mode === 'development' &&
