@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Pagina nu a fost găsită - Redirecționare...</title>
+  <script type="text/javascript">
+    // 1. DEFINEȘTE CALEA DE BAZĂ (numele repository-ului cu slash-uri)
+    const basePath = '/tugui-portfolio/'; // <-- Verifică dacă numele e corect!
+
+    // 2. Obține calea curentă, parametrii ?query și #hash-ul
+    const path = location.pathname;
+    const search = location.search;
+    const hash = location.hash;
+
+    // 3. Verifică dacă suntem într-o cale din interiorul aplicației (nu la rădăcină)
+    //    și dacă începe corect cu calea de bază.
+    if (path.startsWith(basePath) && path !== basePath) {
+
+      // 4. Calculează calea relativă la baza aplicației
+      const relativePath = path.substring(basePath.length);
+
+      // 5. Construiește ținta completă pentru redirectare în aplicație (începând cu /)
+      const redirectTarget = '/' + relativePath + search + hash;
+
+      // 6. Stochează ținta în sessionStorage pentru ca aplicația React să o citească
+      sessionStorage.setItem('redirect', redirectTarget);
+
+      // 7. Redirecționează utilizatorul către pagina principală (index.html) a aplicației
+      location.replace(basePath);
+
+    } else if (path !== basePath) {
+      // Dacă calea e greșită sau altceva, încearcă să trimiți la pagina principală.
+      location.replace(basePath);
+    }
+  </script>
+</head>
+<body>
+  <p>Se redirecționează...</p>
+  <p>Dacă nu ești redirecționat automat, <a href="/tugui-portfolio/">apasă aici</a>.</p>
+</body>
+</html>
