@@ -53,7 +53,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       {/* Adăugăm basename la BrowserRouter */}
-      <BrowserRouter basename="/tugui-portfolio"> {/* <-- MODIFICARE IMPORTANTĂ */}
+      <BrowserRouter basename="/"> {/* <-- MODIFICARE IMPORTANTĂ */}
         {/* Adăugăm componenta helper ÎNAINTE de restul aplicației */}
         <HandleRedirect /> {/* <-- ADAUGATĂ AICI */}
         {/* Restul aplicației tale (componenta Index conține probabil <Routes>) */}
