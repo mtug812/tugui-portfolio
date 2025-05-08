@@ -11,7 +11,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Data Scraping Application',
-      description: 'Built the Frontend and connected it wiht the Backend on this application which allows users to scrape data from websites by inputting a URL, selecting one of the three scraping options, and retrieving data output.',
+      description: 'Built the Frontend on this application which allows users to scrape data from websites by inputting a URL, selecting one of the three scraping options, and retrieving data output.',
       tags: ['Typescript with React', 'Tailwind CSS', 'Web Development'],
       link: 'https://github.com/AliRasikh/data-scraping-application',
       image: '/placeholder.svg'
